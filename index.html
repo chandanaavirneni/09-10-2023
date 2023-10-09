@@ -1,0 +1,120 @@
+<html>
+    <head>
+        <style>
+            .container{
+                position: relative;
+                width:300px;
+                height: 300px;
+                border:1px solid #ccc;
+                margin:20px;
+                
+            }
+            .static-element{
+                width: 60px;
+                height: 50px;
+                background-color: red;
+                right: 30px;
+        
+            }
+            .relative-element{
+                position: relative;
+                top:20px;
+                left:30px;
+                 width: 60px;
+                height: 50px;
+                background-color: blue;
+                
+            }
+            .absolute-element{
+                position: absolute;
+                top: 20px;
+                left: 30px;
+                 width: 60px;
+                height: 50px;
+                background-color: green;
+            }
+            .fixed-element{
+                position: fixed;
+                top: 20px;
+                left: 30px;
+                 width: 50px;
+                height: 50px;
+                background-color:orange;
+            }
+            h1{
+                text-align: center;
+                color: :gray;
+        
+            }
+            h2{
+                text-align: center;
+                color:gold;
+            }
+            img{
+                background-color: yellowgreen;
+                height: 200px;
+                width: 200px;
+                border-style: solid;
+                
+            }
+            body{
+                background-image: url("bg.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            .main{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: space-around;
+        }
+        
+        
+            
+        </style>
+    </head>
+    <body style="background-color: darksalmon;">
+        <h1><u>POSITIONING PROPERTIES</u></h1>
+        
+        
+        <div class="container">
+            <div class="static-element">Static</div>
+            <h2>START COOKING</h2>
+            <img src="images%201.jpg">
+        </div>
+        
+         <div class="container">
+            <div class="relative-element">Relative</div>
+             <h2>ADD INGREDIENTS </h2>
+             <img src="images%202.jpg" alt="images%202" class="center">
+        </div>
+        
+         <div class="container">
+            <div class="absolute-element">Absolute</div>
+             <img src="images3.jpg">
+             <h2>COOK PROPERLY</h2>
+        </div>
+        
+         <div class="container">
+            <div class="fixed-element">Fixed</div>
+             <h2>ENJOY FOR COOKING</h2>
+             <img src="image%20one.jpg">
+        </div>
+        
+        <header>
+            <h1>Flex-box</h1> </header>
+   
+        <h2>FINALLY I LOVE THE TASTE</h2>
+         <div class="main">
+        <img src="image%20one.jpg">
+         <img src="images%20two.jpg">
+         <img src="images%20three.jpg">
+        <img src="images%20four.jpg">
+        
+        </div>
+    
+    
+        
+    </body>
+</html>
